@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3f4a280f801267006e079512f0d8716a8d1a57cb
 body{
     background: #545754;
 }
@@ -27,7 +30,14 @@ h1{
 }
 h2{
     font-size: 200px;
+}
+p{
+  color: aquamarine;
+}
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3f4a280f801267006e079512f0d8716a8d1a57cb
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -96,5 +106,8 @@ body {
 }
 .clickable {
   cursor: crosshair;
+<<<<<<< HEAD
 >>>>>>> 7b4fd73e2cbcc6dadd411e0b5620f5f3d210256d
+=======
+>>>>>>> 3f4a280f801267006e079512f0d8716a8d1a57cb
 }
