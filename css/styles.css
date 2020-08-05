@@ -1,0 +1,70 @@
+/*--- INFORMATION ABOUT THE VIRUS --*/
+#Informationaboutthevirus {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  height: auto;
+}
+#Informationaboutthevirus  {
+  font-size: 30px;
+}
+#Informationaboutthevirus  h1::after {
+  content: '';
+  background: #222;
+  display: block;
+  height: 2px;
+  width: 15%;
+  margin: 15px auto 45px;
+}
+#Informationaboutthevirus  .container {
+  position: relative;
+}
+#Informationaboutthevirus  h6 {
+  font-weight: 600;
+}
+#Informationaboutthevirus  p {
+  font-size: 14px;
+}
+#Informationaboutthevirus .doings {
+  height: 180px;
+}
+#Informationaboutthevirus  .image {
+  height: 130px;
+}
+#Informationaboutthevirus .details1 {
+  display: none;
+}
+#Informationaboutthevirus .illustration1 {
+  display: show;
+}
+#Informationaboutthevirus .details1 {
+  display: none;
+}
+#Informationaboutthevirus  .illustration2 {
+  display: show;
+}
+#Informationaboutthevirus  .details2 {
+  display: none;
+}
+#Informationaboutthevirus  .illustration3 {
+  display: show;
+}
+#Informationaboutthevirus .details3 {
+  display: none;
+}
+#Informationaboutthevirus .icon:hover .doings p {
+  text-align: center;
+  font-size: 14px;
+}
+@media screen and (max-width: 601px) {
+  #Informationaboutthevirus  h1::after {
+    margin: 15px auto 20px;
+    width: 35%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #Informationaboutthevirus  .doings {
+    height: auto;
+    cursor: pointer;
+  }
+}
