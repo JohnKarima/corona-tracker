@@ -12,17 +12,5 @@ $(document).ready(function() {
       $(".illustration3").toggle(500);
       $(".details3").toggle(500);
     });
-    $(".fourth").click(function() {
-      $(".illustration4").toggle(500);
-      $(".details4").toggle(500);
-    });
-    $(".fifth").click(function() {
-      $(".illustration5").toggle(500);
-      $(".details5").toggle(500);
-    });
-    $(".sixth").click(function() {
-      $(".illustration6").toggle(500);
-      $(".details6").toggle(500);
-    });
   });
     
