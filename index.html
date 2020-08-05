@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap.css.map">
   <script src="js/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
   <script src="js/scripts.js"></script>
+
   <title>Corona Tracker</title>
 </head>
+
 <body>
+
  
 <!-- /Information -->
 <!-- Information about the virus -->
@@ -104,5 +110,30 @@ On average it takes 5–6 days from when someone is infected with the virus for 
       </div>
     </div>
   </div>
+
+  <div class="container text-center">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">13,487</h4>
+        <p class="card-text">Active cases in Kenya</p>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">388</h4>
+        <p class="card-text">Deaths</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container clickable">
+    <canvas id="dailyCases"></canvas>
+    <canvas id="dailyDeaths"></canvas>
+  </div>
+
+
 </body>
+
 </html>
