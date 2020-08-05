@@ -36,7 +36,7 @@ let caseChart = new Chart(myChart, {
       display: false,
     }
   }
-})
+});
 
 let mySecondChart = document.getElementById('dailyDeaths').getContext('2d');
 let deathChart = new Chart(mySecondChart, {
@@ -61,5 +61,5 @@ let deathChart = new Chart(mySecondChart, {
       display: false,
     }
   }
-})
+});
 });

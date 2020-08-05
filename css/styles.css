@@ -1,35 +1,32 @@
 body{
-    background: #545754;
+  background: #545754;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
 }
 .logo{
-    text-indent: -999999px;
-    background: url("https://www.hrkatha.com/wp-content/uploads/coronavirus.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 960px;
-    height: 148px;
-
+  text-indent: -999999px;
+  background: url("https://www.hrkatha.com/wp-content/uploads/coronavirus.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 960px;
+  height: 148px;
 }
 .header{
-    padding-top: 200px;
-    height: 500px;
-    background-image: url("https://jacobsmedia.com/wp-content/uploads/2020/03/corona-virus-blur.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    text-align: center ;
+  padding-top: 200px;
+  height: 500px;
+  background-image: url("https://jacobsmedia.com/wp-content/uploads/2020/03/corona-virus-blur.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center ;
 }
 h1{
-    font-size:90px ;
-    font-family: sans-serif;
-    color: aquamarine;
+  font-size:90px ;
+  font-family: sans-serif;
+  color: aquamarine;
 }
 h2{
-    font-size: 200px;
-body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 200px;
 }
-/*-- LANDING PAGE STYLING --*/
 .site-content {
   position: relative;
   height: 100vh;
@@ -38,7 +35,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-/*--- INFORMATION ABOUT THE VIRUS STYLING --*/
 #InformationAboutTheVirus {
   padding-top: 50px;
   padding-bottom: 30px;
@@ -88,10 +84,22 @@ body {
   }
 }
 .card:hover {
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1); 
-  transform: scale(1.07); 
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3); 
+  transform: scale(1.1); 
 }
 .clickable {
   cursor: crosshair;
+}
+.clickable2 {
+  cursor:  pointer;
+}
+ol{
+  list-style-position: inside;
+}
+.text-bold{
+  font-weight: bold;
+}
+.underlineMe{
+  text-decoration: underline;
 }
