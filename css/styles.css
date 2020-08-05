@@ -1,13 +1,8 @@
 
 body {
-  font-family: Open Sans;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*-- LANDING PAGE STYLING --*/
-#hero {
-  height: 100vh;
-  text-align: center;
-  color: #ffffff;
-}
 .site-content {
   position: relative;
   height: 100vh;
@@ -16,40 +11,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.contents {
-  margin-top: 10%;
-}
-.site-content img {
-  padding-bottom: 25px;
-}
-.site-title {
-  padding-bottom: 25px;
-}
-#hero h1 {
-  font-size: 50px;
-}
-.site-description {
-  font-size: 14px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-.line-two {
-  padding-bottom: 0;
-}
-@media screen and (max-width: 601px) {
-  .site-title {
-    padding-bottom: 15px;
-  }
-  .line-two {
-    padding-bottom: 5px;
-  }
-  .site-description {
-    font-size: 14px;
-  }
-  #hero h1 {
-    font-size: 28px;
-  }
-}
 /*--- INFORMATION ABOUT THE VIRUS STYLING --*/
 #InformationAboutTheVirus {
   padding-top: 50px;
@@ -57,31 +18,8 @@ body {
   text-align: center;
   height: auto;
 }
-#InformationAboutTheVirus h1 {
-  font-size: 30px;
-}
-#InformationAboutTheVirus h1:after {
-  content: '';
-  background: #222;
-  display: block;
-  height: 2px;
-  width: 15%;
-  margin: 15px auto 45px;
-}
 #InformationAboutTheVirus .container {
   position: relative;
-}
-#InformationAboutTheVirus h6 {
-  font-weight: 600;
-}
-#InformationAboutTheVirus p {
-  font-size: 14px;
-}
-#InformationAboutTheVirus .doings {
-  height: 180px;
-}
-#InformationAboutTheVirus .image {
-  height: 130px;
 }
 #InformationAboutTheVirus .details1 {
   display: none;
@@ -109,10 +47,6 @@ body {
 }
 #InformationAboutTheVirus .details3 {
   display: none;
-}
-#InformationAboutTheVirus .image:hover .doings p {
-  text-align: center;
-  font-size: 14px;
 }
 @media screen and (max-width: 601px) {
   #InformationAboutTheVirus h1::after {
