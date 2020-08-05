@@ -26,4 +26,72 @@ h1{
 }
 h2{
     font-size: 200px;
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*-- LANDING PAGE STYLING --*/
+.site-content {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*--- INFORMATION ABOUT THE VIRUS STYLING --*/
+#InformationAboutTheVirus {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  height: auto;
+}
+#InformationAboutTheVirus .container {
+  position: relative;
+}
+#InformationAboutTheVirus .details1 {
+  display: none;
+}
+#InformationAboutTheVirus .illustration1 {
+  display: show;
+}
+#InformationAboutTheVirus .details1 {
+  display: none;
+}
+#InformationAboutTheVirus .details2 {
+  display: none;
+}
+#InformationAboutTheVirus .illustration2 {
+  display: show;
+}
+#InformationAboutTheVirus .details2 {
+  display: none;
+}
+#InformationAboutTheVirus .details3 {
+  display: none;
+}
+#InformationAboutTheVirus .illustration3 {
+  display: show;
+}
+#InformationAboutTheVirus .details3 {
+  display: none;
+}
+@media screen and (max-width: 601px) {
+  #InformationAboutTheVirus h1::after {
+    margin: 15px auto 20px;
+    width: 35%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #InformationAboutTheVirus .doings {
+    height: auto;
+    cursor: pointer;
+  }
+}
+.card:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.07); 
+}
+.clickable {
+  cursor: crosshair;
 }
