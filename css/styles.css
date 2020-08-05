@@ -1,14 +1,74 @@
-/*--- INFORMATION ABOUT THE VIRUS --*/
-#Informationaboutthevirus {
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Open Sans;
+}
+/*-- LANDING PAGE STYLING --*/
+#hero {
+  height: 100vh;
+  text-align: center;
+  color: #ffffff;
+}
+.site-content {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contents {
+  margin-top: 10%;
+}
+.site-content img {
+  padding-bottom: 25px;
+}
+.site-title {
+  padding-bottom: 25px;
+}
+#hero h1 {
+  font-size: 50px;
+}
+.site-description {
+  font-size: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.line-two {
+  padding-bottom: 0;
+}
+.mouse {
+  position: absolute;
+  bottom: 0;
+}
+@media screen and (max-width: 601px) {
+  .site-title {
+    padding-bottom: 15px;
+  }
+  .line-two {
+    padding-bottom: 5px;
+  }
+  .site-description {
+    font-size: 14px;
+  }
+  #hero h1 {
+    font-size: 28px;
+  }
+}
+/*--- INFORMATION ABOUT THE VIRUS STYLING --*/
+#InformationAboutTheVirus {
   padding-top: 50px;
   padding-bottom: 30px;
   text-align: center;
   height: auto;
 }
-#Informationaboutthevirus  {
+#InformationAboutTheVirus h1 {
   font-size: 30px;
 }
-#Informationaboutthevirus  h1::after {
+#InformationAboutTheVirus h1::after {
   content: '';
   background: #222;
   display: block;
@@ -16,55 +76,74 @@
   width: 15%;
   margin: 15px auto 45px;
 }
-#Informationaboutthevirus  .container {
+#InformationAboutTheVirus .container {
   position: relative;
 }
-#Informationaboutthevirus  h6 {
+#InformationAboutTheVirus h6 {
   font-weight: 600;
 }
-#Informationaboutthevirus  p {
+#InformationAboutTheVirus p {
   font-size: 14px;
 }
-#Informationaboutthevirus .doings {
+#InformationAboutTheVirus .doings {
   height: 180px;
 }
-#Informationaboutthevirus  .image {
+#InformationAboutTheVirus .icon {
   height: 130px;
 }
-#Informationaboutthevirus .details1 {
+#InformationAboutTheVirus .details1 {
   display: none;
 }
-#Informationaboutthevirus .illustration1 {
+#InformationAboutTheVirus .illustration1 {
   display: show;
 }
-#Informationaboutthevirus .details1 {
+#InformationAboutTheVirus .details1 {
   display: none;
 }
-#Informationaboutthevirus  .illustration2 {
+#InformationAboutTheVirus .illustration2 {
   display: show;
 }
-#Informationaboutthevirus  .details2 {
+#InformationAboutTheVirus.details2 {
   display: none;
 }
-#Informationaboutthevirus  .illustration3 {
+#InformationAboutTheVirus .illustration3 {
   display: show;
 }
-#Informationaboutthevirus .details3 {
+#InformationAboutTheVirus .details3 {
   display: none;
 }
-#Informationaboutthevirus .icon:hover .doings p {
+#InformationAboutTheVirus .illustration4 {
+  display: show;
+}
+#InformationAboutTheVirus .details4 {
+  display: none;
+}
+#InformationAboutTheVirus .illustration5 {
+  display: show;
+}
+#InformationAboutTheVirus .details5 {
+  display: none;
+}
+#InformationAboutTheVirus .illustration6 {
+  display: show;
+}
+#InformationAboutTheVirus .details6 {
+  display: none;
+}
+#InformationAboutTheVirus .image:hover .doings p {
   text-align: center;
   font-size: 14px;
 }
 @media screen and (max-width: 601px) {
-  #Informationaboutthevirus  h1::after {
+  #InformationAboutTheVirus h1::after {
     margin: 15px auto 20px;
     width: 35%;
   }
 }
 @media screen and (max-width: 1000px) {
-  #Informationaboutthevirus  .doings {
+  #InformationAboutTheVirus .doings {
     height: auto;
     cursor: pointer;
   }
 }
+
