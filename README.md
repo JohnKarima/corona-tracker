@@ -6,7 +6,6 @@
 - [Oliver Otiato](https://github.com/KIBUYU20L)
 - [Eugene Kiplimo](https://github.com/Eugene2001-boom) 
 - [Isaac Waithaka](https://github.com/Isaac-waithaka)
-- [Brian Njoroge](https://github.com/rayoapara)
 
 ## About 
 - A slimmed-down quick-check site on Covid-19 in Kenya at the moment.
