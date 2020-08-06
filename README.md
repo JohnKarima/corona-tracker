@@ -1,5 +1,5 @@
 # Project Name 
-- corona-tracker 
+- Corona-Tracker 
 
 ## Author 
 - [John Karima](https://github.com/JohnKarima) 
@@ -27,7 +27,7 @@ $ code .
 - Run the project on Live Server
 
 ## Link to Live Project
-- TBD
+- https://johnkarima.github.io/corona-tracker/
 
 ## Technologies Used
 - HTML, CSS, JavaScript, Bootstrap, JQuery & Chart.js
