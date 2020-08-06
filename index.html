@@ -7,9 +7,12 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap.css.map">
   <script src="js/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
   <script src="js/scripts.js"></script>
+  <link rel="shortcut icon" href="Images/virus.png"/>
   <title>Corona Tracker</title>
 </head>
+
 <body>
 
 <!-- /Information -->
@@ -26,27 +29,60 @@
 
           <h6>THE VIRUS</h6>
         </div>
-        <div class="details1">
-          <h6>THE VIRUS</h6>
-          <p>
-            Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
-
-Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease.
-It was first discovered in China
-          </p>
+        <div class="col-sm-4 doings second clickable2">
+          <div class="illustration2">
+            <div id="aboutVirus"></div>
+            <div class="image">
+              <img src="Images/Corona2.png" alt="Ways of contraction">
+            </div>
+            <h6 class="text-bold">WAYS OF CONTRACTION</h6>
+          </div>
+          <div class="details2">
+            <h6 class="text-bold">WAYS OF CONTRACTION</h6>
+            <p>When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which
+              may contain virus. <br> If you are too close, you can breathe in the droplets, including the COVID-19 virus if
+              the person has the disease.</p>
+          </div>
         </div>
       </div>
-      <div class="col-sm-4 doings second">
-        <div class="illustration2">
+      <div class="col-sm-4 doings third clickable2">
+        <div class="illustration3">
+          <div id="guidelines"></div>
           <div class="image">
-            <img src="Images/Corona2.png" alt="Ways of contraction">
+            <img src="Images/Corona3.jpeg" alt="Signs and Symptoms,Prevention">
           </div>
-          <h6>WAYS OF CONTRACTION</h6>
+          <h6 class="text-bold">SIGNS AND SYMPTOMS,PREVENTION</h6>
         </div>
-        <div class="details2">
-          <h6>WAYS OF CONTRACTION</h6>
-          <p>
-            When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person has the disease.
+        <div class="details3">
+          <h6 class="text-bold">SIGNS AND SYMPTOMS,PREVENTION</h6>
+          <p class="text-bold">
+            Most common symptoms:
+          <ol>
+            <li>Fever</li>
+            <li>Dry cough</li>
+            <li>Tiredness</li>
+          </ol>
+          <strong>Less common symptoms:</strong>
+          <ol>
+            <li>Aches and pains</li>
+            <li>Sore throat</li>
+            <li>Diarrhoea</li>
+            <li>Conjunctivitis</li>
+            <li>Headache</li>
+            <li>Loss of taste or smell</li>
+            <li>A rash on skin, or discolouration of fingers or toes</li>
+          </ol>
+          <strong>Serious symptoms:</strong>
+          <ol>
+            <li>Difficulty breathing or shortness of breath</li>
+            <li>Chest pain or pressure</li>
+            <li>Loss of speech or movement</li>
+          </ol>
+          Seek immediate medical attention if you have serious symptoms. Always call before visiting your doctor or
+          health facility.
+          People with mild symptoms who are otherwise healthy should manage their symptoms at home.
+          On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can
+          take up to 14 days.
           </p>
         </div>
       </div>
@@ -91,7 +127,6 @@ On average it takes 5–6 days from when someone is infected with the virus for 
         <p>
           To prevent the spread of COVID-19:
           <ul>
-            To prevent the spread of COVID-19:
             <li>Clean your hands often. Use soap and water, or an alcohol-based hand rub.</li>
             <li>Maintain a safe distance from anyone who is coughing or sneezing.</li>
             <li>Wear a mask when physical distancing is not possible.</li>
@@ -101,14 +136,38 @@ On average it takes 5–6 days from when someone is infected with the virus for 
             <li> If you have a fever, cough and difficulty breathing, seek medical attention.</li>
 
           </ul>
-        </p>
+          </p>
+        </div>
       </div>
     </div>
+  </section>
+  <br>
+  <div class="container text-center">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">13,487</h4>
+        <p class="card-text text-bold">Active cases in Kenya</p>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">391</h4>
+        <p class="card-text text-bold">Deaths in Kenya</p>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+  <div class="container clickable">
+    <canvas id="dailyCases"></canvas>
+    <br><br><br>
+    <canvas id="dailyDeaths"></canvas>
   </div>
 </body>
 <div class="links">
   <img src="images/MoHlogo.jpg" alt="MoH logo"> <img src="images/whologo.png" alt="WHO logo">
-  <p>For more detailed information on the global pandemic visit <a href="http://www.health.go.ke/">Ministry Of Health official website</a>.</p>
+  <p>For more detailed information on the global pandemic in Kenya visit <a href="http://www.health.go.ke/">Ministry Of Health official website</a>.</p>
   <p>For more detailed information on the global pandemic visit <a href="http://www.who.int/">World Health Organisation official website</a>.</p>
 </div>
 <footer>
