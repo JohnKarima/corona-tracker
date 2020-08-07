@@ -1,7 +1,7 @@
 # Project Name 
 - Corona-Tracker 
 
-## Author 
+## Authors 
 - [John Karima](https://github.com/JohnKarima) 
 - [Oliver Otiato](https://github.com/KIBUYU20L)
 - [Eugene Kiplimo](https://github.com/Eugene2001-boom) 
